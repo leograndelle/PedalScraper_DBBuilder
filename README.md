@@ -14,7 +14,7 @@ Make sure to install these dependencies before running the script.
 
 ```bash
 pip install requests beautifulsoup4
-
+```
 ## How to Use
 1. **Database Connection:** The `connect_db` function establishes a connection to the 'pedals' SQLite database. Ensure that you have the necessary permissions to create and write to a file in the script's directory.
 
