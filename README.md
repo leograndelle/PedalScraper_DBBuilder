@@ -22,5 +22,5 @@ pip install requests beautifulsoup4
 
 3. **Scraping Data:** The `scrape_to_db` function scrapes pedal data from multiple pages on the Andertons website and stores it in the 'pedals' table. The scraping is based on the provided URL, and the script takes care of pagination to ensure all available data is collected.
 
-4. **Main Execution:** The script checks if it is being run directly (`__name__ == '__main__'`). If so, it connects to the database, creates the necessary table, specifies the URL for scraping (in this case, EQ pedals from Andertons), and executes the scraping process. Finally, the database connection is closed.
+4. **Main Execution:** The script checks if it is being run directly (`__name__ == '__main__'`). If so, it connects to the database, creates the necessary table, specifies the URL for scraping, and executes the scraping process. Finally, the database connection is closed.
 
